@@ -1,0 +1,24 @@
+body {
+    padding-left: 100px; 
+    border: 1px black;
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.perso {
+    color: red;
+}
+
+.section {
+    color: red;
+    background-color: rgb(110, 160, 176);
+    font-style: italic;
+    margin: 35px 35px 35px 55px;
+}
