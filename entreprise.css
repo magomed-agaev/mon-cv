@@ -1,0 +1,96 @@
+body {
+    font-style: italic;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(255, 0, 68);
+    -webkit-text-stroke: 0.1px rgb(8, 8, 8);
+    
+    
+    
+}
+body {
+    background-image: url(https://thumbs.dreamstime.com/b/abstract-soft-sweet-orange-flower-background-plumeria-frangipani-flowers-56548469.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+h1 {
+    text-align: center;
+    color: fuchsia;
+    font-size: 80px;
+    -webkit-text-stroke: 1px rgb(4, 4, 4);
+}
+header {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    color: fuchsia;
+    -webkit-text-stroke: 0.1px rgb(4, 4, 4);
+    /* --extra-space: 100%;
+    margin-right: calc(var(--extra-space)/2);
+    margin-left: calc(var(--extra-space)/250);
+    border: 1px solid black;
+     */
+}
+
+header a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+body a {
+    color: rgb(255, 0, 68);
+    text-decoration: underline color red;
+}
+
+input {
+    width: 220px;
+    height: 35px;
+    border: 0.5px solid;
+    border-radius: 5px;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    justify-content: space-evenly;
+}
+
+.photo-container img {
+    width: 350px;
+    height: 290px;
+    border: 1px black solid;
+    gap: 20px;
+}
+.photo-container2 img {
+    width: 350px;
+    height: 290px;
+    border: 1px black solid;
+    gap: 20px;
+    
+}
+
+.photo-container2 {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    justify-content: space-evenly;
+    
+}
+    
+.Services {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+.contenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+}
